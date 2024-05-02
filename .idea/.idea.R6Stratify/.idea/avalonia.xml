@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="R6Stratify/App.axaml" value="R6Stratify.Browser/R6Stratify.Browser.csproj" />
+        <entry key="R6Stratify/Views/MainView.axaml" value="R6Stratify.Desktop/R6Stratify.Desktop.csproj" />
+        <entry key="R6Stratify/Views/MainWindow.axaml" value="R6Stratify.Desktop/R6Stratify.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
