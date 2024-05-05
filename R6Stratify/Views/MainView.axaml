@@ -11,10 +11,20 @@
          to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
     <vm:MainViewModel />
   </Design.DataContext>
-	<Grid ColumnDefinitions="20*,20*,20*,20*,20*"
-	      RowDefinitions="20*,20*,20*,20*,20*"
-	      Background="#313131">
-		<Button Content="Maps"
+	<DockPanel>
+		<Menu DockPanel.Dock="Top"
+		      Background="#313131">
+			<MenuItem Header="_Profiles"
+			          BorderThickness="2">
+				<MenuItem Header="Select"/>
+				<MenuItem Header="Import"/>
+				<MenuItem Header="Export"/>
+			</MenuItem>
+		</Menu>
+		<Grid ColumnDefinitions="10*,10*,10*,10*,10*,10*,10*,10*,10*,10*"
+		      RowDefinitions="20*,20*,20*,20*,20*"
+		      Background="#313131">
+			<!--<Button Content="Maps"
 		        Grid.Column="1"
 		        Grid.Row = "2"
 		        HorizontalAlignment="Left"
@@ -33,7 +43,7 @@
 		        Background="PaleGreen"
 		        HorizontalContentAlignment="Center"
 		        VerticalContentAlignment="Center"
-		        FontWeight="DemiBold"
-		        />
-	</Grid>
+		        FontWeight="DemiBold"/>-->
+		</Grid>
+	</DockPanel>
 </UserControl>
