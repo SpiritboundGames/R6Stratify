@@ -4,6 +4,9 @@
     <option name="projectPerEditor">
       <map>
         <entry key="R6Stratify/App.axaml" value="R6Stratify.Browser/R6Stratify.Browser.csproj" />
+        <entry key="R6Stratify/Views/Home.axaml" value="R6Stratify.Browser/R6Stratify.Browser.csproj" />
+        <entry key="R6Stratify/Views/HomeView.axaml" value="R6Stratify.Browser/R6Stratify.Browser.csproj" />
+        <entry key="R6Stratify/Views/MainMenu.axaml" value="R6Stratify.Browser/R6Stratify.Browser.csproj" />
         <entry key="R6Stratify/Views/MainView.axaml" value="R6Stratify.Desktop/R6Stratify.Desktop.csproj" />
         <entry key="R6Stratify/Views/MainWindow.axaml" value="R6Stratify.Desktop/R6Stratify.Desktop.csproj" />
       </map>
